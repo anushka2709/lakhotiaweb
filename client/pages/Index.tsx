@@ -5,14 +5,12 @@ export default function Index() {
     <div className="bg-amber-50 min-h-screen">
       {/* Navigation */}
       <nav className="fixed top-0 left-0 right-0 z-50 h-16 bg-slate-900 border-b border-orange-500/30 flex items-stretch">
-        <a href="#" className="flex items-center gap-3 px-6 border-r border-white/10 min-w-max cursor-pointer hover:opacity-80 transition-opacity">
-          <div className="w-10 h-10 bg-orange-500 rounded-sm flex items-center justify-center font-serif text-lg font-bold text-white">
-            L
-          </div>
-          <div className="flex flex-col leading-tight">
-            <strong className="text-xs font-bold uppercase tracking-wide text-white">Lakhotia Group</strong>
-            <span className="text-xs text-white/40 uppercase tracking-widest">Industrial Complex</span>
-          </div>
+        <a href="#home" className="flex items-center gap-2 px-6 border-r border-white/10 min-w-max cursor-pointer hover:opacity-80 transition-opacity">
+          <img
+            src="https://cdn.builder.io/api/v1/image/assets%2F0dbc69b068b64c00b4c07d347b4c29ef%2F89a9b1a1aca34bb68b6a1892f31a433e?format=webp&width=200&height=100"
+            alt="Lakhotia Group Logo"
+            className="h-10 w-auto"
+          />
         </a>
 
         <ul className="hidden md:flex items-stretch list-none flex-1 justify-center">
