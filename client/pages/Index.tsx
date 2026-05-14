@@ -358,12 +358,18 @@ export default function Index() {
               </div>
             </div>
 
-            <div className="bg-amber-900/20 aspect-square rounded-sm flex items-center justify-center">
-              <div className="text-center">
-                <div className="text-amber-900/30 mb-4 text-6xl">🏭</div>
-                <p className="text-sm text-amber-900/40">Lakhotia Industrial Complex</p>
-              </div>
-            </div>
+            <a
+              href="https://res.cloudinary.com/df2zkpioe/image/upload/q_auto/f_auto/v1778690180/Complex_Isometric_2_dfbtpi.png"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="block w-full h-full overflow-hidden rounded-lg cursor-pointer"
+            >
+              <img
+                src="https://res.cloudinary.com/df2zkpioe/image/upload/q_auto/f_auto/v1778690180/Complex_Isometric_2_dfbtpi.png"
+                alt="Lakhotia Industrial Complex Master Plan"
+                className="w-full h-full object-contain transition-transform duration-500 hover:scale-105"
+              />
+            </a>
           </div>
         </div>
       </section>
