@@ -16,10 +16,16 @@ export default function Index() {
         </a>
 
         <ul className="hidden md:flex items-stretch list-none flex-1 justify-center">
-          {["Home", "The Project", "Site Gallery", "Knowledge Centre", "Contact"].map((item) => (
-            <li key={item}>
-              <a href="#" className="flex items-center px-5 text-xs font-bold uppercase tracking-widest text-white/50 border-b-4 border-transparent hover:text-white/85 hover:border-orange-500 transition-colors cursor-pointer">
-                {item}
+          {[
+            { label: "Home", id: "home" },
+            { label: "The Project", id: "project" },
+            { label: "Site Gallery", id: "gallery" },
+            { label: "Knowledge Centre", id: "knowledge" },
+            { label: "Contact", id: "contact" },
+          ].map((item) => (
+            <li key={item.id}>
+              <a href={`#${item.id}`} className="flex items-center px-5 text-xs font-bold uppercase tracking-widest text-white/50 border-b-4 border-transparent hover:text-white/85 hover:border-orange-500 transition-colors cursor-pointer">
+                {item.label}
               </a>
             </li>
           ))}
@@ -519,6 +525,9 @@ export default function Index() {
       </footer>
 
       <style>{`
+        html {
+          scroll-behavior: smooth;
+        }
         @keyframes scroll {
           0% {
             transform: translateX(0);
