@@ -5,7 +5,7 @@ export default function Index() {
     <div className="bg-amber-50 min-h-screen">
       {/* Navigation */}
       <nav className="fixed top-0 left-0 right-0 z-50 h-16 bg-slate-900 border-b border-orange-500/30 flex items-stretch">
-        <a href="#home" className="flex items-center gap-2 px-6 border-r border-white/10 min-w-max cursor-pointer hover:opacity-80 transition-opacity">
+        <a href="#home" className="flex items-center gap-2 px-6 border-r border-white/10 min-w-max cursor-pointer hover:opacity-80 transition-opacity rounded" style={{ backgroundColor: "rgba(198, 198, 135, 1)" }}>
           <img
             src="https://cdn.builder.io/api/v1/image/assets%2F0dbc69b068b64c00b4c07d347b4c29ef%2F89a9b1a1aca34bb68b6a1892f31a433e?format=webp&width=200&height=100"
             alt="Lakhotia Group Logo"
