@@ -10,7 +10,7 @@ export default function Index() {
             src="https://cdn.builder.io/api/v1/image/assets%2F0dbc69b068b64c00b4c07d347b4c29ef%2F89a9b1a1aca34bb68b6a1892f31a433e?format=webp&width=200&height=100"
             alt="Lakhotia Group Logo"
             className="h-10 w-auto"
-            style={{ filter: "hue-rotate(25deg) saturate(1.3) brightness(1.1)" }}
+            style={{ filter: "hue-rotate(-15deg) saturate(1.8) brightness(1.2) contrast(1.3)" }}
           />
         </a>
 
